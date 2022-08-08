@@ -35,7 +35,6 @@ body {
     position: absolute;
     top: 2em;
     
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,6 +44,20 @@ body {
     height: 120px;
     padding-right: 5px;
     opacity: 100%;
+}
+
+.credit {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    opacity: 90%;
+}
+
+.credit a {
+    color: white;
+    opacity: 90%;
 }
 
 .right {
