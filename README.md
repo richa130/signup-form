@@ -1,5 +1,4 @@
-# Mock Signn-up Form
-***
+# Mock Sign-up Form
 This project put into practice intermediate HTML/CSS topics such as positioning, advanced selectors, psuedo-classes/pseudo-elements, forms, and form validation.
 
 Link to project: []()
