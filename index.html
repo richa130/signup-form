@@ -31,44 +31,44 @@
             <div class="row">
                 <div class="input">
                     <label for="firstname">FIRST NAME</label>
-                    <input type="text" name="firstname" id="firstname">
+                    <input type="text" name="firstname" id="firstname" required>
                 </div>
 
                 <div class="input">
                     <label for="lastname">LAST NAME</label>
-                    <input type="text" name="lastname" id="lastname">
+                    <input type="text" name="lastname" id="lastname" required>
                 </div>
             </div>
 
             <div class="row">
                 <div class="input">
                     <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                 </div>
     
                 <div class="input">
                     <label for="phonenum">PHONE NUMBER</label>
-                    <input type="phonenum" name="phonenum" id="phonenum">
+                    <input type="tel" name="phonenum" id="phonenum" required>
                 </div>
             </div>
 
             <div class="row">
                 <div class="input">
                     <label for="pass">PASSWORD</label>
-                    <input type="pass" name="pass" id="pass">
+                    <input type="password" name="pass" id="pass" class="error" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{3,15}" required>
+                    <span></span>
                 </div>
     
                 <div class="input">
                     <label for="pass2">CONFIRM PASSWORD</label>
-                    <input type="pass2" name="pass2" id="pass2">
+                    <input type="password" name="pass2" id="pass2"class="error" required>
+                    <span></span>
                 </div>
             </div>
         </form>
 
         <button type="submit" form="sign-up">Create Account</button>
         <p class="header3"> Already have an account? <a href="index.html" class="login">Log in</a> </p>
-        <!-- <div class="madeby"><a href="https://github.com/richa130/signup-form" target="_blank">Made by Richa &lt;3</a></div> -->
-
     </div>
 </body>
 </html>
